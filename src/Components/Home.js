@@ -13,6 +13,7 @@ import fisicaProfile from '../assets/images/fisica.png';
 import geografiaProfile from '../assets/images/geografia.jpg';
 import iliadaProfile from '../assets/images/iliada.jpeg';
 import javaProfile from '../assets/images/java-profile.jpeg';
+import azurduyHeader from '../assets/images/azurduy.jpeg';
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -21,7 +22,7 @@ const useStyles = makeStyles((theme) => ({
   boxHeader: {
     width: '100%',
     height: '200px',
-    backgroundImage: `url(${puebloAzurduyImage}), linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));`,
+    backgroundImage: `url(${azurduyHeader}), linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));`,
     backgroundPosition: 'center',
     backgroundRepeat: 'no-repeat',
     backgroundSize: 'cover',

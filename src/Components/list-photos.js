@@ -26,6 +26,9 @@ const useStyles = makeStyles({
   media: {
     height: '300px',
   },
+  emptyMessage: {
+    color: 'white'
+  }
 });
 
 export default function ListPhotos(props) {
@@ -61,7 +64,7 @@ export default function ListPhotos(props) {
         })
       }
       {
-        (!books || (books && books.length == 0)) && <Typography variant="h3" color="textPrimary" component="p">
+        (!books || (books && books.length == 0)) && <Typography variant="h3" className={classes.emptyMessage} component="p">
           No hay resultados para mostrar.
         </Typography>
       }

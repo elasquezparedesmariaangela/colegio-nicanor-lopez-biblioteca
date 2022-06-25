@@ -7,11 +7,11 @@ function Controls(props) {
 
 
     const isfirstpage = pageNumber <= 1 ? "disabled" : "";
-    const islastpage = pageNumber != numPages ? "" : "disabled";
+    const islastpage = pageNumber !== numPages ? "" : "disabled";
 
 
     const nextpage = () => {
-        if (numPages != pageNumber) setPageNumber(pageNumber + 1);
+        if (numPages !== pageNumber) setPageNumber(pageNumber + 1);
         console.log(islastpage);
     }
     const previouspage = () => {
@@ -21,11 +21,11 @@ function Controls(props) {
         setPageNumber(1);
     }
     const lastpage = () => {
-        if (numPages != pageNumber) setPageNumber(numPages);
+        if (numPages !== pageNumber) setPageNumber(numPages);
     }
 
     const handleRotate = () => {
-        if (rotatedoc == 360) {
+        if (rotatedoc === 360) {
             setRotatedoc(0);
         }
         else {

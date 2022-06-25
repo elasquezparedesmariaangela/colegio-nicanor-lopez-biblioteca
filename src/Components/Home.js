@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import Box from '@material-ui/core/Box';
 import SearchBar from "material-ui-search-bar";
-import puebloAzurduyImage from '../assets/images/pueblo-azurduy.jpeg';
 import ListPhotos from './list-photos';
 import reactbook from '../assets/pdfs/React-Hook.pdf';
 import algebraProfile from '../assets/images/algebra-baldor.jpeg';

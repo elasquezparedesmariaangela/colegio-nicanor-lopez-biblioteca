@@ -1,14 +1,12 @@
 import React, { useState, useEffect } from 'react'
 import { Document, Page, pdfjs } from 'react-pdf/dist/esm/entry.webpack';
 import Controls from './Controls';
-import RecentFiles from './RecentFiles';
-import reactbook from '../assets/pdfs/React-Hook.pdf';
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
 
 
 export default function Pdfreader(props) {
   const [numPages, setNumPages] = useState(null);
-  const [pdfFile, setPdfFile] = useState(props.location.state.book);
+  const [pdfFile] = useState(props.location.state.book);
   const [pageNumber, setPageNumber] = useState(1);
   const [rotatedoc, setRotatedoc] = useState(0);
 

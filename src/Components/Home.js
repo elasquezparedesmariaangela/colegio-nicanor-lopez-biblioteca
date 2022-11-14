@@ -24,7 +24,7 @@ import inglesBasico05Profile from '../assets/pdfs/ingles-basico-5-profile.jpg';
 import sociales from '../assets/pdfs/sociales.pdf';
 import socialesProfile from '../assets/pdfs/sociales-profile.jpg';
 import geografia from '../assets/pdfs/geografia.pdf';
-import geografiaProfile from '../assets/geografia-profile.jpg';
+import geografiaProfile from '../assets/pdfs/geografia-profile.jpg';
 import musica1 from '../assets/pdfs/musica-1.pdf';
 import musica1Profile from '../assets/pdfs/musica1-profile.jpg';
 import musica2 from '../assets/pdfs/musica-2.pdf';
@@ -52,14 +52,13 @@ import unPlanVidaJovenesProfile from '../assets/pdfs/plan-vida-jovenes-profile.j
 import libroValores from '../assets/pdfs/el-libro-de-los-valores.pdf';
 import libroValoresProfile from '../assets/pdfs/libro-valores-profile.jpg';
 
-import algebraProfile from '../assets/images/algebra-baldor.jpeg';
-import aritmeticaProfile from '../assets/images/aritmetica.jpeg';
-import feudalismoProfile from '../assets/images/feudalismo.jpeg';
-import filosofiaProfile from '../assets/images/filosofia.jpg';
-import fisicaProfile from '../assets/images/fisica.png';
-import geografiaProfile from '../assets/images/geografia.jpg';
-import iliadaProfile from '../assets/images/iliada.jpeg';
-import javaProfile from '../assets/images/java-profile.jpeg';
+// import algebraProfile from '../assets/images/algebra-baldor.jpeg';
+// import aritmeticaProfile from '../assets/images/aritmetica.jpeg';
+// import feudalismoProfile from '../assets/images/feudalismo.jpeg';
+// import filosofiaProfile from '../assets/images/filosofia.jpg';
+// import fisicaProfile from '../assets/images/fisica.png';
+// import iliadaProfile from '../assets/images/iliada.jpeg';
+// import javaProfile from '../assets/images/java-profile.jpeg';
 import azurduyHeader from '../assets/images/azurduy.jpeg';
 
 const useStyles = makeStyles((theme) => ({
@@ -155,7 +154,7 @@ const books = [
     name: 'Geografia',
     autor: 'Jhon Smit',
     description: 'En este libro aprendera los fundamentos de programacion en el lenguaje de Java',
-    profileUrl: javaProgeografiaProfilefile,
+    profileUrl: geografiaProfile,
     file: geografia,
   },
   {

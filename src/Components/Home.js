@@ -4,12 +4,12 @@ import Box from '@material-ui/core/Box';
 import SearchBar from "material-ui-search-bar";
 import ListPhotos from './list-photos';
 
-import reactbook from '../assets/pdfs/React-Hook.pdf';
-import geometriaAnalitica from '../assets/pdfs/GeometriaAnalitica.pdf';
+// import reactbook from '../assets/pdfs/React-Hook.pdf';
+// import geometriaAnalitica from '../assets/pdfs/GeometriaAnalitica.pdf';
 import geometriaAnaliticaProfile from '../assets/pdfs/geometria-analitica-profile.jpg';
 import matematicasParaInformatica from '../assets/pdfs/matematicas-para-informatica.pdf';
 import matematicasParaInformaticaProfile from '../assets/pdfs/matematica-para-informatica-profile.jpg';
-import baldor from '../assets/pdfs/baldor.pdf';
+// import baldor from '../assets/pdfs/baldor.pdf';
 import baldorProfile from '../assets/pdfs/baldor-profile.jpg';
 import cronicadeunamuerte from '../assets/pdfs/cronicadeunamuerte.pdf';
 import cronicadeunamuerteProfile from '../assets/pdfs/cronica-muerte-profile.jpg';
@@ -23,25 +23,25 @@ import inglesBasico05 from '../assets/pdfs/ingles-basico-05.pdf';
 import inglesBasico05Profile from '../assets/pdfs/ingles-basico-5-profile.jpg';
 import sociales from '../assets/pdfs/sociales.pdf';
 import socialesProfile from '../assets/pdfs/sociales-profile.jpg';
-import geografia from '../assets/pdfs/geografia.pdf';
+// import geografia from '../assets/pdfs/geografia.pdf';
 import geografiaProfile from '../assets/pdfs/geografia-profile.jpg';
 import musica1 from '../assets/pdfs/musica-1.pdf';
 import musica1Profile from '../assets/pdfs/musica1-profile.jpg';
-import musica2 from '../assets/pdfs/musica-2.pdf';
+// import musica2 from '../assets/pdfs/musica-2.pdf';
 import musica2Profile from '../assets/pdfs/musica2-profile.jpg';
 import artesPlasticas1 from '../assets/pdfs/artes-plasticas-1.pdf';
 import artesPlasticas1Profile from '../assets/pdfs/artes-plasticas1-profile.jpg';
-import artesPlasticas2 from '../assets/pdfs/artes-plasticas-2.pdf';
+// import artesPlasticas2 from '../assets/pdfs/artes-plasticas-2.pdf';
 import artesPlasticas2Profile from '../assets/pdfs/artes-plasticas2-profile.jpg';
 import ecologiaGeneral from '../assets/pdfs/ecologia-general.pdf';
 import ecologiaGeneralProfile from '../assets/pdfs/ecologia-general-profile.jpg';
-import anatomiaFisiologia from '../assets/pdfs/anatomia-fisiologia.pdf';
+// import anatomiaFisiologia from '../assets/pdfs/anatomia-fisiologia.pdf';
 import anatomiaFisiologiaProfile from '../assets/pdfs/anatomia-fisiologia-profile.jpg';
 import electrodinamica from '../assets/pdfs/Electrodinamica.pdf';
 import electrodinamicaProfile from '../assets/pdfs/electrodinamica-profile.jpg';
-import fisica7ma from '../assets/pdfs/fisica_7ma.pdf';
+// import fisica7ma from '../assets/pdfs/fisica_7ma.pdf';
 import fisica7maProfile from '../assets/pdfs/fisica-profile.jpg';
-import quimicaGeneral from '../assets/pdfs/quimica_general_petrucci.pdf';
+// import quimicaGeneral from '../assets/pdfs/quimica_general_petrucci.pdf';
 import quimicaGeneralProfile from '../assets/pdfs/quimica-general-profile.jpg';
 import filosofia1 from '../assets/pdfs/filosofia-1.pdf';
 import filosofia1Profile from '../assets/pdfs/filosofia1-profile.jpg';
@@ -49,7 +49,7 @@ import filosofia2 from '../assets/pdfs/filosofia-2.pdf';
 import filosofia2Profile from '../assets/pdfs/filosofia2-profile.jpg';
 import unPlanVidaJovenes from '../assets/pdfs/Un_plan_de_vida_para_jovenes.pdf';
 import unPlanVidaJovenesProfile from '../assets/pdfs/plan-vida-jovenes-profile.jpg';
-import libroValores from '../assets/pdfs/el-libro-de-los-valores.pdf';
+// import libroValores from '../assets/pdfs/el-libro-de-los-valores.pdf';
 import libroValoresProfile from '../assets/pdfs/libro-valores-profile.jpg';
 
 // import algebraProfile from '../assets/images/algebra-baldor.jpeg';
@@ -92,7 +92,7 @@ const books = [
     autor: 'Lehmann',
     description: 'En este libro aprendera los fundamentos de programacion en el lenguaje de Java',
     profileUrl: geometriaAnaliticaProfile,
-    file: geometriaAnalitica,
+    file: matematicasParaInformatica,
   },
   {
     name: 'Matematicas para Informatica',
@@ -106,7 +106,7 @@ const books = [
     autor: 'A. Baldor',
     description: 'En este libro aprendera los fundamentos de programacion en el lenguaje de Java',
     profileUrl: baldorProfile,
-    file: baldor,
+    file: matematicasParaInformatica,
   },
   {
     name: 'Cronica de una muerte anunciada',
@@ -155,7 +155,7 @@ const books = [
     autor: 'Jhon Smit',
     description: 'En este libro aprendera los fundamentos de programacion en el lenguaje de Java',
     profileUrl: geografiaProfile,
-    file: geografia,
+    file: sociales,
   },
   {
     name: 'Musica 1',
@@ -169,7 +169,7 @@ const books = [
     autor: 'Jhon Smit',
     description: 'En este libro aprendera los fundamentos de programacion en el lenguaje de Java',
     profileUrl: musica2Profile,
-    file: musica2,
+    file: musica1,
   },
   {
     name: 'Artes Plasticas 1',
@@ -183,7 +183,7 @@ const books = [
     autor: 'Jhon Smit',
     description: 'En este libro aprendera los fundamentos de programacion en el lenguaje de Java',
     profileUrl: artesPlasticas2Profile,
-    file: artesPlasticas2,
+    file: artesPlasticas1,
   },
   {
     name: 'Ecologia general',
@@ -197,7 +197,7 @@ const books = [
     autor: 'Jhon Smit',
     description: 'En este libro aprendera los fundamentos de programacion en el lenguaje de Java',
     profileUrl: anatomiaFisiologiaProfile,
-    file: anatomiaFisiologia,
+    file: ecologiaGeneral,
   },
   {
     name: 'Electrodinamica',
@@ -211,14 +211,14 @@ const books = [
     autor: 'Jhon Smit',
     description: 'En este libro aprendera los fundamentos de programacion en el lenguaje de Java',
     profileUrl: fisica7maProfile,
-    file: fisica7ma,
+    file: electrodinamica,
   },
   {
     name: 'Quimica general',
     autor: 'Jhon Smit',
     description: 'En este libro aprendera los fundamentos de programacion en el lenguaje de Java',
     profileUrl: quimicaGeneralProfile,
-    file: quimicaGeneral,
+    file: filosofia1,
   },
   {
     name: 'Filosofia 1',
@@ -246,7 +246,7 @@ const books = [
     autor: 'Jhon Smit',
     description: 'En este libro aprendera los fundamentos de programacion en el lenguaje de Java',
     profileUrl: libroValoresProfile,
-    file: libroValores,
+    file: unPlanVidaJovenes,
   },
 ]
 
